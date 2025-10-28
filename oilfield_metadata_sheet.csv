@@ -1,0 +1,8 @@
+Parameter,Unit,Min,Max,Mean,Std,Distribution
+Porosity,fraction,0.05,0.3,0.18,0.06,"Normal (μ=0.18, σ=0.06)"
+Permeability,mD,1.0,500.0,120.0,100.0,"Log-Normal (μ=120, σ=100)"
+Facies,-,1.0,5.0,3.0,1.2,Categorical (1–5 facies)
+Oil Rate,STB/day,50.0,1500.0,500.0,300.0,"Normal (μ=500, σ=300)"
+Water Rate,STB/day,10.0,600.0,250.0,180.0,"Normal (μ=250, σ=180)"
+Pressure,psi,1500.0,4500.0,3000.0,800.0,"Normal (μ=3000, σ=800)"
+Cumulative Oil,STB,1000.0,500000.0,150000.0,90000.0,"Log-Normal (μ=150k, σ=90k)"
